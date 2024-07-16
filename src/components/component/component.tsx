@@ -197,7 +197,6 @@ export function Component() {
           <div className="container mx-auto max-w-4xl">
             <h2 className="text-3xl font-bold mb-8">Articles</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Example article 1 */}
               <div className="bg-background rounded-lg overflow-hidden shadow-md">
                 <Image
                   src="/a1.jpg"
@@ -207,20 +206,21 @@ export function Component() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="text-xl font-semibold mb-2">Understanding React Hooks</h3>
+                  <h3 className="text-xl font-semibold mb-2">How to Build a RESTful API with Express.js: A Step-by-Step Guide</h3>
                   <p className="text-muted-foreground mb-4">
-                    A deep dive into React Hooks, exploring useState, useEffect, and custom hooks to manage state and side effects in functional components.
+                   Dive into the world of React Hooks and learn how to leverage them to build more efficient and
+                    maintainable web applications.
                   </p>
                   <Link
-                    href="/articles/understanding-react-hooks"
+                    href="https://medium.com/@adityaabes2004/how-to-build-a-restful-api-with-express-js-a-step-by-step-guide-a5633fb4b94e"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                    prefetch={false}
+                    prefetch={false} target="_blank" 
+  rel="noopener noreferrer"
                   >
                     Read More
                   </Link>
                 </div>
               </div>
-              {/* Example article 2 */}
               <div className="bg-background rounded-lg overflow-hidden shadow-md">
                 <Image
                   src="/a2.jpg"
@@ -230,14 +230,16 @@ export function Component() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="text-xl font-semibold mb-2">Mastering Async Programming in JavaScript</h3>
+                  <h3 className="text-xl font-semibold mb-2">Mastering Data Validation with Zod in Your Backend</h3>
                   <p className="text-muted-foreground mb-4">
-                    Explore async programming in JavaScript, including promises, async/await, and how to handle asynchronous operations effectively.
+                    Learn how to optimize your web applications for better performance, including techniques for image
+                    optimization, code splitting, and more.
                   </p>
                   <Link
-                    href="/articles/mastering-async-programming"
+                    href="https://medium.com/@adityaabes2004/mastering-data-validation-with-zod-in-your-backend-6c3bd2fbd6fd"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                    prefetch={false}
+                    prefetch={false} target="_blank" 
+  rel="noopener noreferrer"
                   >
                     Read More
                   </Link>
